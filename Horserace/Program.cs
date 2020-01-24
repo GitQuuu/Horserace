@@ -10,6 +10,11 @@ namespace Horserace
     {
         static void Main(string[] args)
         {
+            Race.Start();
+
+            Race.BeginRace();
+
+            Console.ReadLine();
         }
     }
 }
